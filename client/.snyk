@@ -1,0 +1,104 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-scripts > webpack-dev-server > serve-index > debug:
+        patched: '2019-06-03T17:42:08.257Z'
+  'npm:extend:20180424':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2019-06-03T17:42:08.257Z'
+  'npm:hoek:20180212':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > boom > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > hawk > sntp > hoek:
+        patched: '2019-06-03T17:42:08.257Z'
+  'npm:mime:20170907':
+    - react-scripts > webpack-dev-server > express > send > mime:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > express > serve-static > send > mime:
+        patched: '2019-06-03T17:42:08.257Z'
+  'npm:stringstream:20180511':
+    - react-scripts > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2019-06-03T17:42:08.257Z'
