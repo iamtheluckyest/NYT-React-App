@@ -21,7 +21,7 @@
     "axios": "^0.18.1",
     "body-parser": "^1.17.2",
     "express": "^4.16.0",
-    "mongoose": "^4.13.17",
+    "mongoose": "^5.7.5",
     "react-router-dom": "^4.1.2"
   }
 }
